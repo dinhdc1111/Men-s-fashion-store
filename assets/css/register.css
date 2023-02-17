@@ -1,0 +1,85 @@
+/* Body CSS */
+.main-site{
+    margin-bottom: 40px;
+}
+.user-wrapper {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+.user-nav {
+    border-bottom: 2px solid #cccccc63;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgb(146 146 146 / 14%);
+}
+.user-nav a.active, .user-nav a:hover {
+    border-bottom: 2px solid #10a2f7;
+}
+.user-nav a {
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    color: #000;
+}
+a {
+    color: #252a2b;
+    text-decoration: none;
+    outline: none;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.user-wrapper #formAcount {
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group i{
+    position: absolute;
+    margin-left: -50px;
+    padding: 13px;
+}
+#formAcount input {
+    width: 100%;
+    clear: both;
+    padding: 8px 12px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+#formAcount button {
+    background: #fd6e1d;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#fd6e1d),to(#f59000));
+    background: -webkit-linear-gradient(top,#f59000,#fd6e1d);
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}

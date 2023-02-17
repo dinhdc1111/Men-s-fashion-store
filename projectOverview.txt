@@ -1,0 +1,7 @@
+Công nghệ sử dụng :
+Frontend:
++) HTML, CSS,JS
++) Bootstrap/JQuery
++) Library animation : WOW JS
+Backend:
++) PHP/MySQL
